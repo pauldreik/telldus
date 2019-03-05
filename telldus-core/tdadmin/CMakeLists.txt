@@ -38,9 +38,10 @@ ELSEIF (CMAKE_SYSTEM_NAME MATCHES "FreeBSD")
 		${ARGP_LIBRARY}
 	)
 ELSE (WIN32)
-	TARGET_LINK_LIBRARIES(tdadmin
-		${CMAKE_BINARY_DIR}/client/libtelldus-core.so
-	)
+  TARGET_LINK_LIBRARIES(tdadmin ${telldus-core_TARGET} )
+#  TARGET_LINK_LIBRARIES(tdadmin
+#		${CMAKE_BINARY_DIR}/client/libtelldus-core.so
+#	)
 ENDIF (WIN32)
 
 IF (UNIX)

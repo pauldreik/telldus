@@ -87,3 +87,8 @@ IF (UNIX)
 ENDIF (UNIX)
 
 TARGET_LINK_LIBRARIES( TelldusCommon	${telldus-common_LIBRARIES} )
+
+#pthread is missing
+if (UNIX) 
+  TARGET_LINK_LIBRARIES( TelldusCommon pthread )
+endif(UNIX)

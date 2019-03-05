@@ -1,7 +1,7 @@
 Source: telldus-core
 Priority: extra
 Maintainer: Telldus Technologies AB <info.tech@telldus.se>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7),libftdi-dev,help2man,cmake,libconfuse-dev,doxygen
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://www.telldus.se
