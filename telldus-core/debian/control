@@ -1,0 +1,39 @@
+Source: telldus-core
+Priority: extra
+Maintainer: Telldus Technologies AB <info.tech@telldus.se>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://www.telldus.se
+
+Package: libtelldus-core-dev
+Section: libdevel
+Architecture: any
+Depends: libtelldus-core2 (= ${binary:Version}), ${misc:Depends}
+Description: Development file for libtelldus-core
+ libtelldus-core is the library for controlling wireless devices by a
+ Telldus TellStick.
+ .
+ This package contains the header file needed to
+ compile applications that use telldus-core.
+
+Package: libtelldus-core2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: telldus-core (= ${binary:Version})
+Description: Library to control a Telldus TellStick
+ libtelldus-core is the library for controlling wireless devices by a
+ Telldus TellStick.
+ .
+ It makes it very easy to add home automation capabilities to a
+ program using a simple API.
+
+Package: telldus-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Utilities and driver to control wireless receivers through a TellStick
+ TellStick from Telldus Technologies is a USB-interface to various remote
+ controlled RF receivers on 433,92 MHz.
+ .
+ This package contains the command line interface utilities for controling
+ the devices.

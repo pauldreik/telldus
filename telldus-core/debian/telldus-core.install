@@ -1,0 +1,7 @@
+usr/bin/*
+usr/sbin/*
+usr/share/man/man1/*
+usr/share/telldus-core/helpers/*
+etc/tellstick.conf
+lib/udev/rules.d/*
+

@@ -1,0 +1,61 @@
+telldus-core (2.1.2-1) stable; urgency=low
+
+  * New upstream release
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Tue, 01 Apr 2014 15:52:08 +0200
+
+telldus-core (2.1.1-1) stable; urgency=low
+
+  * New upstream release
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Mon, 06 Feb 2012 10:19:56 +0100
+
+telldus-core (2.1.0-1) stable; urgency=low
+
+  * New upstream release
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Thu, 15 Sep 2011 16:28:03 +0200
+
+telldus-core (2.0.104-2) unstable; urgency=low
+
+  * Initial release for architecture 'armel'
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Mon, 14 Mar 2011 10:42:44 +0100
+
+telldus-core (2.0.104-1) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+  * New upstream release
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Thu, 10 Mar 2011 11:49:26 +0100
+
+telldus-core (2.0.103-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Telldus Technologies AB <info.tech@telldus.se>  Thu, 11 Nov 2010 14:12:00 +0200
+
+telldus-core (2.0.3-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Micke Prag <micke.prag@telldus.se>  Tue, 31 Aug 2010 10:11:00 +0200
+
+telldus-core (2.0.2-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Micke Prag <micke.prag@telldus.se>  Fri, 12 Feb 2010 12:07:00 +0200
+
+telldus-core (2.0.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Micke Prag <micke.prag@telldus.se>  Tue, 10 Nov 2009 21:55:00 +0200
+
+telldus-core (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #544982) 
+
+ -- Micke Prag <micke.prag@telldus.se>  Thu, 03 Sep 2009 20:25:46 +0200
+
